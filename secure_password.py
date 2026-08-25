@@ -8,8 +8,8 @@ print("This program will generate a random password for you.\n")
 
 length = int(input(f"Please enter the desired length of your password (minimum {minimum_length} characters): "))
 
-if not isinstance(length, int) or length < minimum_length:
-    print(f"\nInvalid input. Please enter a valid integer greater than or equal to {minimum_length}.")
+while not isinstance(length, int) or length < minimum_length:
+    length = int(input(f"\nInvalid input. Please enter a valid integer greater than or equal to {minimum_length}: "))
 
 require_number = input("\nDoes your password require a number? ([y]/n): ")
 
