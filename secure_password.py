@@ -114,5 +114,7 @@ while len(password) > length:
 
         password = password[:removal_index] + password[removal_index + 1:]
 
-print("\nYour randomly generated password is " + password)
+print("\nYour randomly generated password is ", password)
+
+print("\nBe sure to store it securely!")
 
