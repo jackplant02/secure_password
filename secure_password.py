@@ -116,4 +116,4 @@ while len(password) > length:
 
 print("\nYour randomly generated password is ", password)
 
-print("\nMake sure to keep it safe!")
+print("\nMake sure to keep it safe!\n")
